@@ -11,7 +11,7 @@ import UIKit
 class AlbumViewController: UIViewController {
     
     // Model: an album
-    var album: Album? = Album(index: 1)
+    var album: Album? = Album(index: 1)     // initial value
 
     @IBOutlet weak var backgroundImageView: UIImageView!
     @IBOutlet weak var albumCoverImageView: UIImageView!

@@ -74,7 +74,13 @@ class PlaylistViewController: UIViewController {
                     let album = Album(index: index)
                     albumViewController.album = album
                 }
-                
+            
+            case "Show Favorite Album":
+                let albumViewController = segue.destinationViewController as! AlbumViewController
+                // just the first 5 random albums
+                let randomIndex = Int(arc4random()) % 5
+                let randomAlbum = Album(index: randomIndex)
+                albumViewController.album = randomAlbum
             default:
                 break
             }
