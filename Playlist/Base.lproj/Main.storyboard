@@ -231,7 +231,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="367" y="78"/>
+            <point key="canvasLocation" x="381" y="133"/>
         </scene>
         <!--Album View Controller-->
         <scene sceneID="M0i-Lw-Msu">
@@ -281,7 +281,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dJZ-tO-G4a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="813" y="71"/>
+            <point key="canvasLocation" x="827" y="126"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2KG-vh-bIp">
@@ -305,7 +305,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CKw-DR-l5a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-54" y="71"/>
+            <point key="canvasLocation" x="-33" y="133"/>
         </scene>
     </scenes>
     <resources>
@@ -319,6 +319,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Vpd-k0-JBq"/>
+        <segue reference="xFe-P1-xWC"/>
     </inferredMetricsTieBreakers>
 </document>
